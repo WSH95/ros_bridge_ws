@@ -1,0 +1,31 @@
+-
+  ros1_package_name: 'grid_map_msgs'
+  ros1_message_name: 'GridMapInfo.msg'
+  ros2_package_name: 'grid_map_msgs'
+  ros2_message_name: 'GridMapInfo.msg'
+-
+  ros1_package_name: 'grid_map_msgs'
+  ros1_message_name: 'GridMap.msg'
+  ros2_package_name: 'grid_map_msgs'
+  ros2_message_name: 'GridMap.msg'
+
+-
+  ros1_package_name: 'grid_map_msgs'
+  ros1_service_name: 'GetGridMap.srv'
+  ros2_package_name: 'grid_map_msgs'
+  ros2_service_name: 'GetGridMap.srv'
+-
+  ros1_package_name: 'grid_map_msgs'
+  ros1_service_name: 'GetGridMapInfo.srv'
+  ros2_package_name: 'grid_map_msgs'
+  ros2_service_name: 'GetGridMapInfo.srv'
+-
+  ros1_package_name: 'grid_map_msgs'
+  ros1_service_name: 'ProcessFile.srv'
+  ros2_package_name: 'grid_map_msgs'
+  ros2_service_name: 'ProcessFile.srv'
+-
+  ros1_package_name: 'grid_map_msgs'
+  ros1_service_name: 'SetGridMap.srv'
+  ros2_package_name: 'grid_map_msgs'
+  ros2_service_name: 'SetGridMap.srv'
