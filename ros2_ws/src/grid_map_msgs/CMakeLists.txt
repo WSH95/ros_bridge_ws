@@ -27,5 +27,5 @@ ament_export_dependencies(rosidl_default_runtime)
 
 ament_package()
 install(
-        FILES gridmap_mapping_rules.yaml
-        DESTINATION share/${PROJECT_NAME})
+  FILES gridmap_mapping_rules.yaml
+  DESTINATION share/${PROJECT_NAME})
