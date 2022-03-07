@@ -1,9 +1,11 @@
-- ros1_package_name: "grid_map_msgs"
+- 
+  ros1_package_name: "grid_map_msgs"
   ros1_message_name: "GridMapInfo"
   ros2_package_name: "grid_map_msgs"
   ros2_message_name: "GridMapInfo"
 
-- ros1_package_name: "grid_map_msgs"
+- 
+  ros1_package_name: "grid_map_msgs"
   ros1_message_name: "GridMap"
   ros2_package_name: "grid_map_msgs"
   ros2_message_name: "GridMap"
@@ -11,22 +13,26 @@
     info.header.stamp: "header.stamp"
     info.header.frame_id: "header.frame_id"
 
-- ros1_package_name: "grid_map_msgs"
+- 
+  ros1_package_name: "grid_map_msgs"
   ros1_service_name: "GetGridMap"
   ros2_package_name: "grid_map_msgs"
   ros2_service_name: "GetGridMap"
 
-- ros1_package_name: "grid_map_msgs"
+- 
+  ros1_package_name: "grid_map_msgs"
   ros1_service_name: "GetGridMapInfo"
   ros2_package_name: "grid_map_msgs"
   ros2_service_name: "GetGridMapInfo"
 
-- ros1_package_name: "grid_map_msgs"
+- 
+  ros1_package_name: "grid_map_msgs"
   ros1_service_name: "ProcessFile"
   ros2_package_name: "grid_map_msgs"
   ros2_service_name: "ProcessFile"
 
-- ros1_package_name: "grid_map_msgs"
+- 
+  ros1_package_name: "grid_map_msgs"
   ros1_service_name: "SetGridMap"
   ros2_package_name: "grid_map_msgs"
   ros2_service_name: "SetGridMap"
