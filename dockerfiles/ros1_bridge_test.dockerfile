@@ -117,4 +117,4 @@ WORKDIR /home/wsh
   # Run the print-pairs command to check if things are working properly
 RUN ros2 run ros1_bridge dynamic_bridge --print-pairs
 
-# CMD ["bash", "-c", "source /opt/ros/foxy/setup.bash && ros2 run ros1_bridge dynamic_bridge --bridge-all-pairs"]
+CMD ["bash", "-c", "source /opt/ros/foxy/setup.bash && ros2 run ros1_bridge dynamic_bridge --bridge-all-topics"]
