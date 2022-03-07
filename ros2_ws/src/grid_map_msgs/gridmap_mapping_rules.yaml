@@ -10,8 +10,8 @@
   ros2_package_name: "grid_map_msgs"
   ros2_message_name: "GridMap"
   fields_1_to_2:
-    info.header.stamp: "header.stamp"
-    info.header.frame_id: "header.frame_id"
+    info.header: "header"
+    # info.header.frame_id: "header.frame_id"
 
 - 
   ros1_package_name: "grid_map_msgs"
