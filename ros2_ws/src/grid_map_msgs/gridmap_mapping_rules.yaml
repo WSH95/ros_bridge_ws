@@ -11,7 +11,12 @@
   ros2_message_name: "GridMap"
   fields_1_to_2:
     info.header: "header"
-    # info.header.frame_id: "header.frame_id"
+    info: "info"
+    layers: "layers"
+    basic_layers: "basic_layers"
+    data: "data"
+    outer_start_index: "outer_start_index"
+    inner_start_index: "inner_start_index"
 
 - 
   ros1_package_name: "grid_map_msgs"
