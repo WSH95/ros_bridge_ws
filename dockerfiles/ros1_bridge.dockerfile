@@ -2,6 +2,7 @@
 FROM ros:noetic-ros-base-focal as ros1_builder
 
 RUN apt-get update && apt-get install -y git python3-catkin-tools \
+  ros-noetic-turtle-tf2 ros-noetic-tf2-tools ros-noetic-tf \
   && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /workspaces
@@ -15,6 +16,9 @@ RUN /bin/bash -c 'cd ros_bridge_ws/ros1_ws/ && source /opt/ros/noetic/setup.bash
 
 # Build msgs package in ros2 environment
 FROM ros:foxy-ros-base-focal as ros2_builder
+
+RUN apt-get update && apt-get install -y ros-foxy-turtle-tf2-py ros-foxy-tf2-tools ros-foxy-tf-transformations \
+  && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /workspaces
 
