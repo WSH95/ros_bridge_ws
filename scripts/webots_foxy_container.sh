@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -it -e ROS_DOMAIN_ID=12 -v /home/wsh/Downloads/QuadrupedSim_webots_ros2:/home/wsh/Documents/QuadrupedSim_webots_ros2 -v /tmp/.X11-unix:/tmp/.X11-unix:rw -v /dev/shm:/dev/shm -e DISPLAY=unix$DISPLAY -e NVIDIA_VISIBLE_DEVICES=all -e NVIDIA_DRIVER_CAPABILITIES=all --network host --privileged --rm --gpus all --name webots --device /dev/input/js0:/dev/input/js0 wsh95/ros:foxy-webots
